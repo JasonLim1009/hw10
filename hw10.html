@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw10</title>
+    <script src="https://kit.fontawesome.com/868fc4d292.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Product Filter</h1>
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                <input type="text" id="search" placeholder="Search Product">
+            </form>
+            </div>
+            <div class="filer-box">
+                <a href="#" class="btn active" data-filter="all">All</a>
+                <a href="#" class="btn" data-filter="watch">Watch</a>
+                <a href="#" class="btn" data-filter="shirt">Shirt</a>
+                <a href="#" class="btn" data-filter="gown">Gown</a>
+                <a href="#" class="btn" data-filter="jewelry">Jewelry</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slide-container">
+            <section class="container" id="store-products">
+                <div class="store-product watch">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-silver-202011?wid=532&hei=582&fmt=png-alpha&.v=1604021221000" alt="">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product watch" data-product="watch">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=532&hei=582&fmt=png-alpha&.v=1632861342000" alt="">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product watch">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN6L3?wid=532&hei=582&fmt=png-alpha&.v=1651891539131" alt="">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product shirt">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HNPY2?wid=532&hei=582&fmt=png-alpha&.v=1649436711998" alt="">
+                    <div class="product-details">
+                        <h2>Shirt Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product shirt">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MYMG2?wid=532&hei=582&fmt=png-alpha&.v=1601053195000" alt="">
+                    <div class="product-details">
+                        <h2>Shirt Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product shirt">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN653_AV3?wid=532&hei=582&fmt=png-alpha&.v=1645998988412" alt="">
+                    <div class="product-details">
+                        <h2>Shirt Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product gown">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMT83?wid=532&hei=582&fmt=png-alpha&.v=1647541360014" alt="">
+                    <div class="product-details">
+                        <h2>Gown Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product shirt">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MNA73_FV102?wid=532&hei=582&fmt=png-alpha&.v=1645214428592" alt="">
+                    <div class="product-details">
+                        <h2>Shirt Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product shirt">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXJ92?wid=532&hei=582&fmt=png-alpha&.v=1580420175341" alt="">
+                    <div class="product-details">
+                        <h2>Shirt Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product jewelry">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX4A2?wid=532&hei=582&fmt=png-alpha&.v=1618028917000" alt="">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product jewelry">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMR3?wid=532&hei=582&fmt=png-alpha&.v=1645719947833" alt="">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="store-product jewelry">
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-4pack-select-202104?wid=532&hei=582&fmt=png-alpha&.v=1617761669000" alt="">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+    
+    <script src="cart.js"></script>
+</body>
+</html>

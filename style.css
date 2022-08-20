@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root{
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #db6400;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* img{
+    width: 100%;
+} */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    background-color: #eee;
+    padding: 1rem;
+}
+
+header h1{
+    font-size: 3.5rem;
+    line-height: 2;
+    color: var(--color-primary);
+}
+
+form input{
+    width: 30rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border-bottom: 2 solid var(--color-sec);
+    margin-bottom: 2rem;
+}
+
+.btn{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--color-sec);
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+
+.active{
+    background-color: var(--color-dark-grey);
+}
+
+#store-products{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.store-products {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    max-width: 25rem;
+}
+
+.product-details{
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #eee;
+}
+
+.product-details h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.product-details p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: green;
+    font-weight: 700;
+}
+
+.product-details p span{
+    text-decoration: line-through;
+    color: red;
+    font-weight: normal;
+}
+
+.product-details a{
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: var(--color-sec);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+
+.product-details a:hover{
+    background-color: var(--color-primary);
+}
