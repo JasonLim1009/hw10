@@ -72,13 +72,18 @@ form input{
     margin-right: 1rem;
 }
 
+.btn:hover {
+    background-color: #8b4914; 
+}
+
+
 .active{
     background-color: var(--color-dark-grey);
 }
 
 #store-products{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap; 
     gap: 15px;
@@ -86,7 +91,7 @@ form input{
 
 .store-products {
     border: 1px solid #eee;
-    border-radius: 3px;
+    border-radius: 10px;
     max-width: 25rem;
 }
 
@@ -123,6 +128,10 @@ form input{
     border-radius: 3px;
 }
 
-.product-details a:hover{
+.product-details a{
     background-color: var(--color-primary);
+}
+
+.product-details a:hover {
+    background-color: #8b4914;
 }
